@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 10px;
+
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: rgb(153, 34, 125);
+    color: rgb(19, 2, 64);
+    border-radius: 10px;
+}
+.logo {
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    color: rgb(153, 34, 125);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    text-transform: uppercase;
+}
