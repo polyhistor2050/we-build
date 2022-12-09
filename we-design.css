@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(home-pick.jpg) no-repeat;
+    background-size: cover;
+}
+.login-page {
+    width: 280;
+    left: 50%;
+    top: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    background:linear-gradient(rgb(41, 25, 25), rgb(41, 21, 5));
+    border-radius: 25px;
+    padding: 25px;
+    /* add background for login page*/
+}
+.login-page h1{
+    font-size: 40px;
+    float: center;
+    border-bottom: 6px solid #4caf50 ;
+    text-align: center;
+}
+
+.textbox {
+    width: 100%;
+    font-size: 20px;
+    padding: 4px 0;
+    margin: 4px 0;
+    border-bottom: 3px solid #4caf50;
+    overflow: hidden;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+    width: 80%;
+    margin: 0 10px;
+}
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 12px;
+    cursor: pointer;
+}
